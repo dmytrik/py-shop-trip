@@ -1,10 +1,12 @@
-from app.service import (
+from app.service.make_components import (
     FUEL_PRICE,
     customers,
     shops,
-    show_the_cost_of_purchases,
-    take_checks
 )
+from app.service.show_the_cost_of_purchases import (
+    show_the_cost_of_purchases
+)
+from app.service.take_checks import take_checks
 
 
 def shop_trip() -> None:
