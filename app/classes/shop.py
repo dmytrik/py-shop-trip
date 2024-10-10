@@ -24,7 +24,7 @@ class Shop:
         total_price = milk_price + bread_price + butter_price
         customer.spent_money = total_price
         return (f"Date: "
-                f"{datetime.datetime.now().strftime("%d/%m/%Y %H:%M:%S")}\n"
+                f'{datetime.datetime.now().strftime("%d/%m/%Y %H:%M:%S")}\n'
                 f"Thanks, {customer.name}, for your purchase!\n"
                 f"You have bought" + ":" + "\n"
                 f"{customer.product_cart["milk"]} milks for"
