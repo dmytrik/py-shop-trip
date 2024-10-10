@@ -27,11 +27,11 @@ class Shop:
                 f'{datetime.datetime.now().strftime("%d/%m/%Y %H:%M:%S")}\n'
                 f"Thanks, {customer.name}, for your purchase!\n"
                 f"You have bought" + ":" + "\n"
-                f"{customer.product_cart["milk"]} milks for"
+                f'{customer.product_cart["milk"]} milks for'
                 f" {milk_price} dollars\n"
-                f"{customer.product_cart["bread"]} breads for "
+                f'{customer.product_cart["bread"]} breads for '
                 f"{bread_price} dollars\n"
-                f"{customer.product_cart["butter"]} butters for "
+                f'{customer.product_cart["butter"]} butters for '
                 f"{butter_price} dollars\n"
-                f"Total cost is {total_price} dollars\n"
+                f'Total cost is {total_price} dollars\n'
                 f"See you again!\n")
