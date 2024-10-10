@@ -33,5 +33,5 @@ class Shop:
                 f"{bread_price} dollars\n"
                 f'{customer.product_cart["butter"]} butters for '
                 f"{butter_price} dollars\n"
-                f'Total cost is {total_price} dollars\n'
+                f"Total cost is {total_price} dollars\n"
                 f"See you again!\n")
