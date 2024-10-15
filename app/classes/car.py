@@ -7,5 +7,4 @@ class Car:
     fuel_consumption: float
 
     def calculate_cost_way(self, way: float, fuel_price: float) -> float | int:
-        result = (way / 100) * self.fuel_consumption * fuel_price
-        return result
+        return (way / 100) * self.fuel_consumption * fuel_price
